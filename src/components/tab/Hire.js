@@ -1,5 +1,4 @@
-// import { Container } from "react-bootstrap";
-// import { Button } from "react-bootstrap";
+
 import { Button, Container } from "react-bootstrap";
 import "./tab.css";
 
