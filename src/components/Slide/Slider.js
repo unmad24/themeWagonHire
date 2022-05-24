@@ -32,7 +32,7 @@ const Slider = () => {
           </Container>
         </Carousel.Item>
 
-        {/* <Carousel.Item className="pb-3">
+        <Carousel.Item className="pb-3">
           <Container>
             <div className="row d-flex align-items-center">
               <div className="col-md-8">
@@ -74,7 +74,7 @@ const Slider = () => {
               </div>
             </div>
           </Container>
-        </Carousel.Item> */}
+        </Carousel.Item>
 
       </Carousel>
     </div>
