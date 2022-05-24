@@ -6,7 +6,7 @@ const Faq = () => {
       <div className="row">
         <div className="col-md-4">
           <h2 className=" faqText">
-            Find your all project related questions
+            Find your all project related questions.
           </h2>
         </div>
         <div className="col-md-8 acc">
