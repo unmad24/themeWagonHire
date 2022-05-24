@@ -1,0 +1,18 @@
+.getInTouch{
+    border: 1px solid #D8E2EF;
+    border-radius: 10px;
+}
+.texts h2{
+    font-size: 25px;
+    color: #344050;
+}
+@media (min-width:992px){
+    .emailBox .form-control{
+        width: 300px;
+    }
+}
+@media (min-width:1200px){
+    .emailBox .form-control{
+        width: 350px;
+    }
+}

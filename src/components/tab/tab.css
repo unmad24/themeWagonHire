@@ -1,0 +1,184 @@
+.roundedTab {
+  border-radius: 10px;
+}
+.hireText {
+  font-weight: 700;
+  font-size: 40px;
+}
+h2 {
+  font-weight: 700;
+}
+.cards {
+  cursor: pointer;
+}
+.contactInput h2{
+  font-size: 32px;
+  color: #344050;
+}
+.cards {
+  /* height: 253px;
+  width: 510px; */
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.colored {
+  color: #65c54e;
+}
+.hireBtn {
+  background-color: #65c54e;
+  line-height: 20px;
+  font-weight: 500;
+  color: white;
+}
+.circles {
+  display: flex;
+  justify-content: center;
+}
+.circle {
+  border: 1px dashed #00000033;
+  height: 392px;
+  width: 392px;
+  margin-top: 36px;
+  border-radius: 50%;
+  position: absolute;
+}
+.circle1 {
+  border: 1px solid #00000033;
+  font-family: "Nunito Sans", sans-serif;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  background-color: white;
+}
+.circle1 p {
+  color: #748194;
+  font-weight: 700;
+}
+.circle1 h2 {
+  font-family: 'Nunito Sans';
+  color: #344050;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.getfree h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #344050;
+}
+
+.getfree p {
+  font-size: 20px;
+  color: #344050;
+}
+.down {
+  width: 15px;
+  height: 18px;
+}
+.foot p {
+  color: #4581fd;
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+}
+.options p {
+  margin-right: 15px;
+  margin-bottom: 0px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.options p:hover {
+  color: #36a71d;
+}
+
+hr {
+  margin: 5px;
+}
+.form-control:focus {
+  border-color: #36a71d;
+  box-shadow: none;
+}
+.form-select:focus {
+  border-color: #36a71d;
+  box-shadow: none;
+}
+.footer .icons {
+  cursor: pointer;
+}
+.textSection {
+  padding-right: 48px;
+}
+
+/* media quries */
+
+@media (max-width: 768px) {
+  .hireText {
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .options p {
+    font-size: 15px;
+  }
+  .circle {
+    height: 260px;
+    width: 260px;
+  }
+  .circle1 {
+    height: 150px;
+    width: 150px;
+  }
+}
+.tabText h4 {
+  font-family: Nunito Sans;
+  font-size: 33.18px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #344050;
+}
+.titleText {
+  font-size: 27.65px;
+  line-height: 33.18px;
+  font-weight: 600;
+}
+.tabText p {
+  font-size: 19.2px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 576px) {
+  .contactInput h2{
+    margin-top: 50px;
+  }
+  .roundedTab {
+    margin-bottom: 40px;
+  }
+  .textSection {
+    text-align: center;
+    padding-right: 0px;
+  }
+}
+@media (max-width: 320px) {
+  .circle {
+    height: 200px;
+    width: 200px;
+  }
+  .circle1 {
+    height: 100px;
+    width: 100px;
+  }
+  .circle1 h2 {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  .circle1 p {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+}

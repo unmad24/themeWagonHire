@@ -1,0 +1,85 @@
+.carousel-control-next-icon {
+    margin-left: 70px;
+    background-image: url("../../../public/images/next.png");
+}
+.carousel-control-prev-icon {
+    margin-right: 70px;
+
+    background-image: url("../../../public/images/prev.png");
+}
+.carousel-indicators {
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+    
+}
+
+
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    width: 9px;
+    height: 9px;
+    border-radius: 44px;
+    background-color: #7DCE69;
+    border: 0;
+    opacity: .3;
+    transition: opacity .6s ease;
+}
+.carousel-indicators .active {
+    opacity: 1 !important;
+    transition: .6s ease;
+}
+.sliderHeader h4{
+    font-size: 33px;
+    font-weight: 700;
+    color: #344050;
+}
+.sliderHeader p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.sliderText{
+    text-align: start;
+}
+@media (max-width: 576px){
+    .sliderHeader h4{
+        font-size: 30px;
+    font-weight: 700;
+    }
+    .sliderText{
+        text-align: center;
+    }
+    .carousel-control-next-icon {
+        margin-left: 34px;
+    }
+    .carousel-control-prev-icon {
+        margin-right: 34px;
+    }
+}
+@media (max-width: 320px){
+  
+    .carousel-control-next-icon {
+        margin-left: 14px;
+    }
+    .carousel-control-prev-icon {
+        margin-right: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-control-next-icon {
+        margin-left: 70px;
+    }
+    .carousel-control-prev-icon {
+        margin-right: 70px;
+    }
+}
+
+@media (min-width:1024px){
+    .carousel-control-next-icon {
+        margin-left: 100px;
+    }
+    .carousel-control-prev-icon {
+        margin-right: 100px;
+    }
+}

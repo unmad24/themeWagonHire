@@ -1,0 +1,122 @@
+.borderLine {
+  border-bottom: 4px solid #89e274;
+  border-radius: 7px 0px;
+}
+/* .txtBuild h2{
+  font-size: 48px;
+  font-weight: 700;
+}
+.txtBuild p{
+  font-size: 23px;
+  font-weight: 500;
+} */
+.heroBtn {
+  width: 126px;
+  line-height: 20px;
+  background-color: #89e274;
+  color: white;
+  border: 4px solid #89e274;
+}
+
+.btn-primary {
+  width: 126px;
+  height: 36px;
+  color: #fff;
+  background-color: #5bc142;
+  border-color: #5bc142;
+}
+.btn-primary:active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #5bc142;
+  border-color: #5bc142;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+  color: #fff;
+  background-color: #5bc142;
+  border-color: #5bc142;
+  box-shadow:none;
+}
+.btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #36a71d;
+  border-color: #36a71d;
+}
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 16px;
+}
+.txtBuild h2 {
+  font-size: 48px;
+}
+.txtColumn{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+@media (max-width: 425px) {
+  .navbar-brand {
+    margin-right: 0px;
+  }
+  .txtBuild {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 375px) {
+  .searchbox {
+    width: 160px;
+  }
+  .navbar-brand {
+    margin-right: 0px;
+  }
+}
+@media (max-width: 320px) {
+  .searchbox {
+    width: 120px;
+  }
+  .navbar-brand {
+    margin-right: 0px;
+  }
+}
+@media (max-width: 1024px) {
+  .txtBuild h2 {
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .txtBuild p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+} 
+
+@media (max-width: 575px) {
+  .txtBuild h2 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .txtBuild p {
+    font-size: 18px;
+    font-weight: 500;
+  }
+} 
+@media (max-width: 768px) {
+  .txtBuild h2 {
+    font-size: 33px;
+    font-weight: 700;
+  }
+  .txtBuild p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+} 

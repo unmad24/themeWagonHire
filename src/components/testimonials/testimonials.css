@@ -1,0 +1,27 @@
+.speech{
+    font-size: 24px;
+    font-style: italic;
+}
+.designations h5{
+    font-size: 20px;
+    margin: 0px;
+}
+.choose h2{
+    font-size: 33px;
+    color: #344050;
+}
+/* .quotes{
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+} */
+.testimoni .carousel-indicators {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    padding-bottom: 55px;
+}
+
+@media (max-width:768px){
+    .person{
+        height: 100px;
+    }
+}
